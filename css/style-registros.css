@@ -1,0 +1,208 @@
+
+body{
+	background-image: url('coronavirusblue.jpg');
+	font-family: 'Montserrat', sans-serif !important;
+	font-size: 14px;
+
+}
+nav{
+    position: absolute;
+    top: 80px;
+    right: 110px;
+
+}
+nav li{
+    display: absolute;
+    margin-top: -50px;
+    margin-bottom: 70px;
+    margin-left: 20px;
+}
+
+nav a{
+    color: white;
+    text-transform: uppercase;
+    font-weight: bold;
+    text-decoration: none;
+    font-size: 22px;
+}
+nav a:hover{
+    text-decoration: underline;
+    color: black;
+}
+.texto-principal-nome-pagina{
+    color: white;
+    text-decoration: underline;
+    text-align: left;
+    font-size: 3em;
+    margin: 0 0 1em;
+}
+
+.titulo-formulario{
+    font-size: 20px;
+	color: white;
+	margin-top: 10px;
+	text-align: center;
+}
+.caixa{
+    position: relative;
+    width: 940px;
+    margin: 0 auto;
+    left: 0px;
+
+
+}
+.container{
+	width: 60%;
+	height: 100%;
+	margin: 0 auto;
+}
+
+section {
+	margin: 2em 0;
+	overflow: hidden;
+}
+
+section h2, h3 {
+	font-size: 3em;
+	display: inline;
+	padding-bottom: .5em;
+	border-bottom: 5px solid #ccc;
+	margin-bottom: .5em;
+}
+.button-dados{
+    width: 300px;
+    height: 30px;
+    bottom: 340px;
+    right: 790px;
+    position: absolute;
+}
+
+
+table {
+	background-color:GhostWhite;
+	width: 100%;
+	margin-bottom : .5em;
+
+}
+
+td, th {
+	color: black;
+	font-style: bold;
+	padding: .4em;
+	margin: 0;
+	border: 1px solid #ccc;
+	text-align: center;
+	background-color: ghostwhite;
+}
+
+th{
+	font-weight: bold;
+	background-color: #EEE;
+}
+
+label{
+	color: black;
+	font-style: bold;
+	display: block;
+	margin-bottom: .2em;
+}
+
+.campo{
+	margin: 0;
+	padding-bottom: 1em;
+	width: 100%;
+	border: 1px solid #ccc;
+	padding: .7em;
+	width: 100%;
+}
+
+.campo-medio{
+	display: inline-block;
+	padding-right: .5em;
+}
+
+.grupo{
+	width: 40%;
+	text-align: center;
+}
+
+button{
+	padding: .2em 2em;
+	border: 0;
+	border-bottom: 3px solid;
+	font-size: 1.2em;
+	cursor: pointer;
+	margin: 0;
+	margin-top: -3px;
+	color: #fff;
+	background-color:#0c8cd3;
+	border-color: #04324c;
+	width: 20%;
+    display: block;
+    clear: both;
+    margin: 10px 0px;
+
+}
+
+button:active{
+	margin-top:0px;
+	border: 0;
+}
+
+button[disabled=disabled], button:disabled {
+    background-color: gray;
+	border-color: darkgray;
+
+}
+
+.adicionar-paciente{
+    margin-top: 30px;
+}
+
+.campo-invalido {
+	border: 1px solid red;
+}
+
+.paciente-invalido {
+	background-color: lightcoral;
+}
+
+#mensagens-erro {
+	color: red;
+	line-height: 30px;
+}
+
+.fadeOut {
+	opacity: 0;
+	transition: 0.5s;
+}
+
+
+.invisivel {
+	display: none;
+}
+
+
+.imagemform{
+	position: absolute;
+	display: inline;
+	left: 1000px;
+}
+footer{
+    text-align: center;
+	padding: 30px 0;
+}
+
+.copyright{
+	left: 700px;
+	position: absolute;
+	bottom: 0;
+    color: white;
+    font-size: 30px;
+    font-weight: bold;
+    margin: 20px 0 0;
+    margin-bottom: auto;
+}
+.copyright::before{
+    content: "©Lukas Fantinel - Josue - ES - 2020";
+}

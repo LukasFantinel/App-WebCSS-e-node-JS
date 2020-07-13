@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <title>AntiCorona</title>
+    <link rel="stylesheet" type="text/css" href="css/style-registros.css">
+    <!-- <link rel="stylesheet" type="text/css" href="css/style.css"> -->
+    <link rel="stylesheet" type="text/css" href="css/reset.css">
+</head>
+
+<body>
+
+
+    <header>
+        <div class="caixa">
+            <h1 class="texto-principal-nome-pagina">AntiCorona</h1>
+        </div>
+
+        <nav>
+            <ul>
+                <li><a href="formulario.html">Cadastro</a></li>
+                <li><a href="index.html">Home</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+
+
+        <section class="container">
+
+            <ul id="mensagens-erro"></ul>
+
+            <div class="container">
+                <h1 class="titulo-formulario">Consultar Dados</h1>
+            </div>
+            <table>
+                <thead>
+                    <tr id="coluna-lugares" class="color">
+                        <th>Estado</th>
+                        <th>Cidade</th>
+                        <th>Hospital</th>
+                        <th>Casos Suspeitos</th>
+                        <th>Casos Confirmados</th>
+                        <th>Casos Recuperados</th>
+                        <th>Numero de óbitos</th>
+                    </tr>
+                </thead>
+
+                <tbody id="tabela-formapi">
+                    <tr class="api" id="api">
+
+                    </tr>
+
+                </tbody>
+            </table>
+
+            <span id="erro-ajax" class="invisivel">Erro ao buscar os Consórcio!</span>
+            <button id="buscar-api" class="button-dados">Consultar</button>
+            </form>
+        </section>
+
+
+
+    </main>
+
+    <section>
+        <form id="form-adicionaapi">
+            <div class="grupo">
+                <label for="estado"></label>
+            </div>
+            <div class="grupo">
+                <label for="cidade"></label>
+            </div>
+            <div class="grupo">
+                <label for="hospital"></label>
+            </div>
+            <div class="grupo">
+                <label for="suspeitos"></label>
+            </div>
+            <div class="grupo">
+                <label for="confirmados"></label>
+            </div>
+            <div class="grupo">
+                <label for="curados"></label>
+            </div>
+            <div class="grupo">
+                <label for="obitos"></label>
+            </div>
+
+
+        </form>
+    </section>
+
+    <footer>
+        <p class="copyright"></p>
+
+    </footer>
+
+</body>
+
+<script src="js/buscar-api.js"></script>
+<script src="js/form-api.js"></script>
+<!-- <script src="js/form.js"></script> -->
+
+</html>

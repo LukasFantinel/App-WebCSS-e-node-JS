@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+	<meta charset="UTF-8">
+	<title>AntiCorona</title>
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<link rel="stylesheet" type="text/css" href="css/reset.css">
+</head>
+
+<body>
+
+
+	<header>
+		<div class="caixa">
+			<h1 class="texto-principal-nome-pagina">AntiCorona</h1>
+		</div>
+
+		<nav>
+			<ul>
+				<li><a href="registros.html">Registros</a></li>
+				<li><a href="index.html">Home</a></li>
+			</ul>
+		</nav>
+	</header>
+
+	<main>
+		<section class="container">
+
+			<table>
+				<thead>
+					<tr id="coluna-lugares" class="color">
+					</tr>
+				</thead>
+
+				<tbody id="tabela-formapi">
+					<tr class="api" id="api">
+
+					</tr>
+
+				</tbody>
+			</table>
+			</form>
+		</section>
+	</main>
+
+
+
+	<section class="container">
+
+		<ul id="mensagens-erro"></ul>
+		<form id="form-adicionaapi" class="principal">
+			<div class="container">
+				<h1 class="titulo-formulario">Registrar Casos</h1>
+			</div>
+
+			<div class="grupo">
+				<label for="estado">Estado:</label>
+				<input id="estado" name="estado" type="text" placeholder="Nome do estado" class="campo campo-medio">
+			</div>
+			<div class="grupo">
+				<label for="cidade">Cidade:</label>
+				<input id="cidade" name="cidade" type="text" placeholder="Nome da cidade" class="campo campo-medio">
+			</div>
+			<div class="grupo">
+				<label for="hospital"> Hospital:</label>
+				<input id="hospital" name="hospital" type="text" placeholder="Nome do Hospital"
+					class="campo campo-medio">
+			</div>
+			<div class="grupo">
+				<label for="suspeito">Casos suspeito:</label>
+				<input id="suspeito" name="suspeito" type="number" placeholder="Numero de casos suspeitos"
+					class="campo campo-medio">
+			</div>
+
+			<div class="grupo">
+				<label for="confirmado"> Casos confirmados:</label>
+				<input id="confirmado" type="number" name="confirmado" placeholder="Numero de casos confirmados"
+					class="campo campo-medio">
+			</div>
+			<div class="grupo">
+				<label for="curados">Casos recuperados:</label>
+				<input id="curados" name="curados" type="number" placeholder="Numero de casos recuperados"
+					class="campo campo-medio">
+			</div>
+
+			<div class="grupo">
+				<label for="obitos"> Numero de óbitos:</label>
+				<input id="obitos" name="obitos" type="number" placeholder="Numero de óbitos" class="campo campo-medio">
+			</div>
+
+
+			<button id="adicionar-estados" class="button">Adicionar</button>
+		</form>
+	</section>
+
+
+	<footer>
+		<p class="copyright"></p>
+
+	</footer>
+
+</body>
+<script src="js/form-api.js"></script>
+
+</html>
